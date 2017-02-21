@@ -1,0 +1,13 @@
+name: intelliore_truck_env
+dependencies:
+- python>=3.6
+- numpy
+- matplotlib
+- scipy
+- pandas
+- networkx
+- conda install -c anaconda graphviz=2.38.0
+- pip:
+  - pgmpy
+  - graphviz
+  - pydot
